@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Yasmin Santana Viana, estudande de Ciência da Computação">
+  <title>Yasmin Santana Viana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWixZZ1eLrk3l0v7xG3gFLqJ2+0zqA+6v1z7yA7J5Xz7c2z5+5z5Xz7yA7J5Xz7c2z5" crossorigin="anonymous">
+  <style>
+  body {
+    background-color: #F0F8FF;  }
+</style>
+</head>
+<body>
+  <div id="top-of-document"></div>
+  
+  <!-- Controle de navegação -->
+  <div class="to-top-navigator position-fixed">
+    <div class="to-top-cloud" aria-label="Rolar para o topo">
+      <a href="#top-of-document" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Rolar para o topo">
+        <i class="fas fa-cloud"></i>
+      </a>
+    </div>
+    <div>
+      <a href="javascript:scrollToPreviousSection()" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Rolar para a seção anterior">
+        <svg class="tcon-svgchevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 58">
+          <path d="M15 10l-12 12 12 12" fill="none" stroke="currentColor" stroke-width="4"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="section-indicators-block position-fixed" role="navigation>"
+    <div class="section-indicator">
+      <a id="biografia-section-indicator" href="#biografia" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Ir para biografia"></a>
+    </div>
+    <div class="section-indicator">
+      <a id="portfolio-section-indicator" href="#portfolio" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Ir para Portfolio"></a>
+    </div>
+    <div class="section-indicator">
+      <a id="habilidades-section-indicator" href="#habilidades" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Ir para aptidões"></a>
+    </div>
+    <div class="section-indicator">
+      <a id="educacao-section-indicator" href="#educacao" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Ir para Educação"></a>
+    </div>
+    <div class="section-indicator">
+      <a id="contato-section-indicator" href="#contato" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Ir para Contato"></a>
+    </div>
+  </div>
+
+  <div class="scroll-down-navigator position-fixed">
+    <div>
+      <a href="javascript:scrollToNextSection()" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Rolar para a proxima seção">
+        <svg class="tcon-svgchevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 58">
+          <path d="M15 48l12-12-12-12" fill="none" stroke="currentColor" stroke-width="4"/>
+        </svg>
+      </a>
+    </div>
+    <div class="scroll-down-plane" aria-label="Rolar para o final">
+      <a href="#bottom-of-document" class="btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Rolar para o final">
+        <i class="fas fa-plane"></i>
+      </a>
+  </div>
+  </div>
+
+  <!-- Biografia-->
+  <section id="biografia" class="container section-visual-boundary py-5">
+      <div class="row justify-content-center"
+      <div class="col-12 col-md-8">
+        <h1 class="page-title">Yasmin Santana Viana</h1>
+        <h2 class="page-subtitle">Estudante de Ciência da Computação</h2>
+      </div>
+      </div>
+  </section>
+
+  <hr>
+
+  <!-- Seção do Portfólio -->
+<section id="portfolio" class="container section-visual-boundary py-5">
+  <h1 class="section-heading">Portfólio</h1>
+  <div class="row row-cols-1 g-3 justify-content-center">
+    <div class="col"> 
+        <img src="https://cdn-1.webcatalog.io/catalog/github/github-icon-filled-256.png?v=1753662983890" class="card-img-top github-img" alt="Perfil do GitHub" style="width: 200px; height: auto;">      
+          <h5 class="card-title">GitHub</h5>
+          <p class="card-text">Dê uma olhada no meu GitHub</p>
+          <a style="text-align:left;" href="https://github.com/YasminSV" target="_blank" class="btn btn-primary">Ir para o meu GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <hr>
+
+  <!-- Secão de Habilidades -->
+  <section id="habilidades" class="container section-visual-boundary py-5">
+    <h2 class="section-heading">Minhas habilidades</h2>
+    <p class="mb3" data-bs-toggle="tooltip" data-bs-placement="bottom" tittle="Essas tags indicam as tecnologias que eu uso">
+       </p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+    </ul>
+  </section>
+  <!-- Seção de Educação -->
+  <section id="educacao" class="container section-visual-boundary py-5">
+    <h2 class="section-heading">Educação</h2>
+    <h3 class="section-subheading">Universidade Cruzeiro do Sul</h3>
+    <h4 class="section-small-heading">Bacharelado em Ciência da Computação 2025/2029</h4>
+    <h4>Técnico em Desenvolvimento de Sistemas 2025/2027</h4>
+  </section>
+    
+  <!-- Seção de Contato -->
+  <section id="contato" class="container section-visual-boundary py-5">
+    <h2 class="section-heading">Contato</h2>
+    <p>Email: <a href="mailto:ysaintviana@gmail.com" class="btn btn-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Mande um email para mim">ysaintviana@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yasmin-santana-viana-139188300" target="_blank" class="btn btn-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visite minha página no Linkedin">Yasmin Santana Viana</a></p>
+  </section>
+    
+  <hr>
+
+  <!-- Footer -->
+  <footer id="bottom-of-document" class="text-center py-3">
+    <p class="copyright-text">© Copyright 2025 Yasmin Santana Viana</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="js/nav.js"></script>
+  <script>
+    // Initialize Bootstrap tooltips
+    const tooltipTriggerList = document.querySelectorAll("["data-bs-toggle="tooltip"]");
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+    // Reset tooltips on click
+    function toolTipReset() {
+      tooltipList.forEach(tooltip => tooltip.hide());});
+  </script>
+</body>
+</html>
